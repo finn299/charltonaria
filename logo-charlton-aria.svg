@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Charlton Aria Acquisition Corporation">
+  <defs>
+    <linearGradient id="goldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7c573"/>
+      <stop offset="50%" stop-color="#c79b3f"/>
+      <stop offset="100%" stop-color="#a07a25"/>
+    </linearGradient>
+    <linearGradient id="navyFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15315f"/>
+      <stop offset="100%" stop-color="#0a1d3d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Laurel wreath - left -->
+  <g fill="#0e2549" transform="translate(140 360)">
+    <path d="M0 0 C-40 -60 -50 -120 -30 -180 C-10 -150 0 -110 -5 -70 Z"/>
+    <ellipse cx="-25" cy="-30" rx="14" ry="22" transform="rotate(-25 -25 -30)"/>
+    <ellipse cx="-40" cy="-70" rx="14" ry="22" transform="rotate(-25 -40 -70)"/>
+    <ellipse cx="-50" cy="-110" rx="13" ry="21" transform="rotate(-25 -50 -110)"/>
+    <ellipse cx="-50" cy="-150" rx="12" ry="19" transform="rotate(-30 -50 -150)"/>
+    <ellipse cx="-15" cy="-50" rx="13" ry="21" transform="rotate(20 -15 -50)"/>
+    <ellipse cx="-25" cy="-90" rx="13" ry="20" transform="rotate(15 -25 -90)"/>
+    <ellipse cx="-30" cy="-130" rx="12" ry="19" transform="rotate(10 -30 -130)"/>
+    <ellipse cx="-30" cy="-170" rx="11" ry="17" transform="rotate(5 -30 -170)"/>
+  </g>
+
+  <!-- Laurel wreath - right (mirror) -->
+  <g fill="#0e2549" transform="translate(660 360) scale(-1 1)">
+    <path d="M0 0 C-40 -60 -50 -120 -30 -180 C-10 -150 0 -110 -5 -70 Z"/>
+    <ellipse cx="-25" cy="-30" rx="14" ry="22" transform="rotate(-25 -25 -30)"/>
+    <ellipse cx="-40" cy="-70" rx="14" ry="22" transform="rotate(-25 -40 -70)"/>
+    <ellipse cx="-50" cy="-110" rx="13" ry="21" transform="rotate(-25 -50 -110)"/>
+    <ellipse cx="-50" cy="-150" rx="12" ry="19" transform="rotate(-30 -50 -150)"/>
+    <ellipse cx="-15" cy="-50" rx="13" ry="21" transform="rotate(20 -15 -50)"/>
+    <ellipse cx="-25" cy="-90" rx="13" ry="20" transform="rotate(15 -25 -90)"/>
+    <ellipse cx="-30" cy="-130" rx="12" ry="19" transform="rotate(10 -30 -130)"/>
+    <ellipse cx="-30" cy="-170" rx="11" ry="17" transform="rotate(5 -30 -170)"/>
+  </g>
+
+  <!-- Shield outer (gold trim) -->
+  <path d="M400 140
+           L600 200
+           L600 380
+           Q600 480 510 540
+           Q450 580 400 600
+           Q350 580 290 540
+           Q200 480 200 380
+           L200 200 Z"
+        fill="url(#goldFill)"/>
+
+  <!-- Shield inner (navy) -->
+  <path d="M400 158
+           L582 213
+           L582 378
+           Q582 470 500 525
+           Q446 562 400 580
+           Q354 562 300 525
+           Q218 470 218 378
+           L218 213 Z"
+        fill="url(#navyFill)"/>
+
+  <!-- Star above CA -->
+  <polygon points="400,210 408,232 432,232 412,246 420,270 400,256 380,270 388,246 368,232 392,232"
+           fill="url(#goldFill)"/>
+
+  <!-- CA letters -->
+  <text x="400" y="430"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="200"
+        font-weight="700"
+        font-style="italic"
+        fill="url(#goldFill)">CA</text>
+
+  <!-- Ribbon banner -->
+  <g>
+    <!-- left tail -->
+    <path d="M170 525 L240 510 L240 565 L155 555 L185 540 Z" fill="#9b7728"/>
+    <!-- right tail -->
+    <path d="M630 525 L560 510 L560 565 L645 555 L615 540 Z" fill="#9b7728"/>
+    <!-- main banner -->
+    <path d="M240 500
+             Q400 540 560 500
+             L560 565
+             Q400 600 240 565 Z"
+          fill="url(#goldFill)" stroke="#7d5e1f" stroke-width="1.5"/>
+    <text x="400" y="548"
+          text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="32"
+          font-weight="700"
+          letter-spacing="6"
+          fill="#0a1d3d">ACQUISITION</text>
+  </g>
+
+  <!-- Wordmark: CHARLTON ARIA -->
+  <text x="400" y="730"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="80"
+        font-weight="600"
+        letter-spacing="4"
+        fill="#15315f">CHARLTON ARIA</text>
+
+  <!-- Subline: ACQUISITION CORPORATION with rules -->
+  <line x1="200" y1="780" x2="280" y2="780" stroke="#c79b3f" stroke-width="2"/>
+  <line x1="520" y1="780" x2="600" y2="780" stroke="#c79b3f" stroke-width="2"/>
+  <text x="400" y="787"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="28"
+        letter-spacing="10"
+        fill="#c79b3f">ACQUISITION CORPORATION</text>
+</svg>
